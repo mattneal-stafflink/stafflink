@@ -127,6 +127,26 @@ class Stafflink {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__) ) . 'includes/class-disable-comments.php';
 
+		/** 
+		 * Delete attached media for property types.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__) ) . 'includes/class-delete-property-media.php';
+
+		/** 
+		 * Disable Admin panel for authors.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__) ) . 'includes/class-disable-user-roles.php';
+		
+		/** 
+		 * Enable user/author base rewriting.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__) ) . 'includes/class-author-base.php';
+
+		/** 
+		 * General Filters and hooks.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__) ) . 'includes/class-global-filters.php';
+
 		$this->loader = new Stafflink_Loader();
 
 	}
