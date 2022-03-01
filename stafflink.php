@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Stafflink
  * Plugin URI:        https://stafflink.com.au
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       A few helper hooks and functions for STAFFLINK websites.
  * Version:           1.0.0
  * Author:            Matthew Neal
  * Author URI:        https://www.linkedin.com/in/matthew-neal-1ba40997

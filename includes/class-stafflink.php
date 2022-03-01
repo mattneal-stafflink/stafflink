@@ -122,6 +122,11 @@ class Stafflink {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-stafflink-public.php';
 
+		/** 
+		 * Disable all comments site wide.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__) ) . 'includes/class-disable-comments.php';
+
 		$this->loader = new Stafflink_Loader();
 
 	}
